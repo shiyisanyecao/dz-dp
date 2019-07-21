@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/imgs/logo.svg';
+import HomeHeader from '../../components/HomeHeader/index'
 
 class Home extends React.Component {
     constructor(props, context) {
@@ -11,7 +11,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <img src={logo}/>
+                <HomeHeader />
             </div>
         )
     }

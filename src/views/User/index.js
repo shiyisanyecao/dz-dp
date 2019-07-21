@@ -1,6 +1,6 @@
 import React from 'react'
 
-class App extends React.Component {
+class Home extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
@@ -10,7 +10,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                {/* {this.props.children} */}
+                User
             </div>
         )
     }
@@ -21,4 +21,4 @@ class App extends React.Component {
     }
 }
 
-export default App
+export default Home
