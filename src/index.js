@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Router from './router/index';
 import * as serviceWorker from './serviceWorker';
+import 'lib-flexible'
 
 ReactDOM.render(<Router />, document.getElementById('root'));
 
