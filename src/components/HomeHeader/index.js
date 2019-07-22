@@ -23,7 +23,7 @@ class HomeHeader extends React.Component {
                 <div className="float-right user">
                     <img src={yonghu} alt="ps"/>
                 </div>
-                <div class="search">
+                <div className="search">
                     <img src={sousuo} alt="ps"/>
                     <input/>
                 </div>
