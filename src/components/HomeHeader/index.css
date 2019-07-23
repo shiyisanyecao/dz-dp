@@ -1,26 +1,28 @@
 .header-box {
-    height: 42px;
+    height: 52px;
     background-color: #ff6633;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .position {
     color: #fff;
-    font-size: 12px;
-    height: 42px;
-    line-height: 42px;
+    font-size: 16px;
+    vertical-align: center;
+    padding-left: 8px;
 }
 .position img {
-    width: 12px;
-    height: 12px;
+    width: 22px;
+    height: 22px;
 }
-.user,.search {
-    height: 42px;
-    line-height: 42px;
+.user {
+    padding-right: 8px;
 }
 .user img{
-    width: 12px;
-    height: 12px;
+    width: 22px;
+    height: 22px;
 }
 .search img {
-    width: 12px;
-    height: 12px;
+    width: 22px;
+    height: 22px;
 }

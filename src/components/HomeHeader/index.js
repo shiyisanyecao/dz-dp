@@ -15,17 +15,17 @@ class HomeHeader extends React.Component {
     }
     render() {
         return (
-            <div className="clear-fix header-box">
-                <div className="float-left position">
+            <div className="header-box">
+                <div className="position">
                     深圳
                     <img src={xiala} alt="ps"/>
-                </div>
-                <div className="float-right user">
-                    <img src={yonghu} alt="ps"/>
                 </div>
                 <div className="search">
                     <img src={sousuo} alt="ps"/>
                     <input/>
+                </div>
+                <div className="user">
+                    <img src={yonghu} alt="ps"/>
                 </div>
             </div>
         )
