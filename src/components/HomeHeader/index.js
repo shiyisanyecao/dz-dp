@@ -18,14 +18,14 @@ class HomeHeader extends React.Component {
             <div className="header-box">
                 <div className="position">
                     深圳
-                    <img src={xiala} alt="ps"/>
+                    <img src={xiala} alt=""/>
                 </div>
                 <div className="search">
-                    <img src={sousuo} alt="ps"/>
+                    <img src={sousuo} alt=""/>
                     <input/>
                 </div>
                 <div className="user">
-                    <img src={yonghu} alt="ps"/>
+                    <img src={yonghu} alt=""/>
                 </div>
             </div>
         )
