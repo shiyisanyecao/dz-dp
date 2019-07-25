@@ -6,6 +6,9 @@ import sousuo from '../../assets/imgs/sousuo.png'
 import yonghu from '../../assets/imgs/yonghu.png'
 
 
+import { Input } from 'element-react';
+import 'element-theme-default';
+
 class HomeHeader extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -22,7 +25,7 @@ class HomeHeader extends React.Component {
                 </div>
                 <div className="search">
                     <img src={sousuo} alt=""/>
-                    <input/>
+                    <Input/>
                 </div>
                 <div className="user">
                     <img src={yonghu} alt=""/>
