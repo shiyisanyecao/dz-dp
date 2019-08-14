@@ -7,12 +7,9 @@ import User from '../views/User/index'
 import NotFound from '../views/NotFound/index'
 
 class RouterMap extends React.Component {
-    updateHandle() {
-        console.log('每次router变化之后都会触发')
-    }
     render() {
         return (
-            <Router history={this.props.history} onUpdate={this.updateHandle.bind(this)}>
+            <Router>
                 <Switch>
                     <Route path="/" component={App} >
                         <Route path="/home" component={Home}/>
